@@ -1,0 +1,54 @@
+style.css
+
+div {
+    background-color: cadetblue;
+    height: 600px;
+    width: 450;
+}
+
+body {
+    background-color: powderblue;
+  }
+
+
+  .container {
+    height: 600px;
+    position: relative;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+ .image-absolute {
+        position: absolute;
+        bottom: 500px;
+        left: 115px;
+        height: 200px;
+    }
+
+    .margin-100 {
+        padding-top: 100px;
+        color: 34393F;
+    }
+
+    .modal-style {
+       background-color: #34393F;
+        border-radius: 8px;
+    }
+
+    .modal-backdrop {
+        background-color: F2F2F2;
+     }
+
+
+I used :
+
+.modal {
+  background-color:black;
+}
