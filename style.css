@@ -1,12 +1,12 @@
 style.css
 
-div {
-    background-color: cadetblue;
-    height: 600px;
-    width: 450;
+    div {
+        background-color: cadetblue;
+        height: 600px;
+        width: 450;
 }
 
-body {
+    body {
     background-color: powderblue;
   }
 
@@ -27,28 +27,43 @@ body {
 
  .image-absolute {
         position: absolute;
-        bottom: 500px;
+        bottom: 300px;
         left: 115px;
         height: 200px;
     }
 
-    .margin-100 {
+.margin-100 {
         padding-top: 100px;
         color: 34393F;
     }
 
-    .modal-style {
+.modal-style {
        background-color: #34393F;
         border-radius: 8px;
     }
 
-    .modal-backdrop {
-        background-color: F2F2F2;
+.modal-backdrop {
+        background-color: hsl(318, 79%, 23%);
      }
 
 
-I used :
-
 .modal {
-  background-color:black;
-}
+    background-color:rgb(207, 202, 202);
+    }
+
+    .modal-body {
+    color: #999999;
+    }
+
+.modal-box {
+    background-color: #2E3136;
+    height: 50px;
+    width: 450px;
+    vertical-align: middle;
+    }
+
+.modal-footer {
+        background-color: #2E3136;
+        width: 100%;
+
+    }
