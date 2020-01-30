@@ -28,16 +28,19 @@ style.css
 
  .image-absolute {
         position: absolute;
-        bottom: 400px;
+        bottom: 430px;
         left: 115px;
         height: 200px;
+        margin-bottom: 25px;
     }
 
 .subhead-margin {
     margin-bottom: 25px;
 }
 
-
+.contents {
+    padding: 25px;
+}
 
 .modal-style {
        background-color: #34393F;
@@ -55,15 +58,14 @@ style.css
 
 .modal-body {
     color: #ffffff;
+    padding: 0%;
     }
 
 .modal-box {
     background-color: #222222;
-    height: 50px;
-    width: 475px;
-    vertical-align: middle;
     margin-bottom: 25px;
     display: inline-block;
+    align-items: center;
 
     }
 
@@ -106,8 +108,7 @@ style.css
       }
 
       .modal-footer {
-        background-color: none;
-        width: 100%;
+        background-color: #222222;
         border: 0px;
-
+        padding: 20px;
     }
