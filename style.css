@@ -13,7 +13,7 @@ style.css
 
 
   .container {
-    height: 600px;
+    height: 1000px;
     position: relative;
   }
   
@@ -60,11 +60,18 @@ style.css
 .modal-box {
     background-color: #222222;
     height: 50px;
-    width: 450px;
+    width: 475px;
     vertical-align: middle;
     margin-bottom: 25px;
     display: inline-block;
 
+    }
+
+    .streaming {
+        padding: 20px;;
+        display: flex;
+        justify-content: space-between;
+        line-height: 0px;
     }
 
     .circles {
